@@ -1,0 +1,43 @@
+double calculateTotal(
+    String productName, double price, int quantity) {
+  if (price < 0 || quantity < 0) {
+    throw FormatException(
+        "Price and quantity cannot be negative.");
+  }
+
+  double total = price * quantity;
+
+  if (total >= 1000) {
+    print("You have a discount!");
+  } else {
+    print("You do not have a discount.");
+  }
+
+  print("\nShopping Summary:");
+
+  for (int i = 1; i <= quantity; i++) {
+    print("Item $i: $productName added to cart");
+  }
+
+  return total;
+}
+
+void main() {
+  String productName = "Keyboard G12";
+  double price = 10;
+  int quantity = 3;
+
+  try {
+    print("=== Shopping Cart Calculator ===");
+    print("Product Name: $productName");
+    print("Product Price: $price");
+    print("Quantity: $quantity");
+
+    double total =
+        calculateTotal(productName, price, quantity);
+
+    print("\nTotal Cost: ${total.toStringAsFixed(2)}");
+  } catch (e) {
+    print("\nInvalid input: $e");
+  }
+}
