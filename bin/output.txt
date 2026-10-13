@@ -1,3 +1,4 @@
+Success Output
 === Shopping Cart ===
 Product Name: Keyboard G12
 Product Price: 560
@@ -10,3 +11,11 @@ Item 2: Keyboard G12 added to cart
 Item 3: Keyboard G12 added to cart
 
 Total Cost: 1680.00
+
+Error Output
+=== Shopping Cart ===
+Product Name: Keyboard G12
+Product Price: 560
+Quantity: -4
+
+Invalid input: FormatException: Price and quantity cannot be negative.
