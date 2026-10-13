@@ -28,7 +28,7 @@ void main() {
   int quantity = 3;
 
   try {
-    print("=== Shopping Cart Calculator ===");
+    print("=== Shopping Cart ===");
     print("Product Name: $productName");
     print("Product Price: $price");
     print("Quantity: $quantity");
