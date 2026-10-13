@@ -1,0 +1,12 @@
+=== Shopping Cart ===
+Product Name: Keyboard G12
+Product Price: 560
+Quantity: 3
+You have a discount!
+
+Shopping Summary:
+Item 1: Keyboard G12 added to cart
+Item 2: Keyboard G12 added to cart
+Item 3: Keyboard G12 added to cart
+
+Total Cost: 1680.00
